@@ -30,7 +30,4 @@ public class Todos {
         return tasks;
     }
 
-    public Task[] addToArray(String query) {
-        return tasks;
-    }
 }

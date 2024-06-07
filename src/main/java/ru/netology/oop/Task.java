@@ -10,15 +10,7 @@ public class Task {
     }
 
     public boolean matches(String query) {
-        return true;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public int getClass(Object o) {
-        return id;
+        return false;
     }
 
     @Override
@@ -33,4 +25,9 @@ public class Task {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    public int getId() {
+        return id;
+    }
+
 }

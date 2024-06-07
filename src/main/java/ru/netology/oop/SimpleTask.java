@@ -20,5 +20,4 @@ public class SimpleTask extends Task {
     public String getTitle() {
         return title;
     }
-
 }

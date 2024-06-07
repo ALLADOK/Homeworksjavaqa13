@@ -10,10 +10,8 @@ public class Epic extends Task {
 
     @Override
     public boolean matches(String query) {
-        String[] string = new String[0];
         for (String subtasks : subtasks) {
             if (subtasks.contains(query)) {
-
                 return true;
             }
         }
@@ -23,5 +21,4 @@ public class Epic extends Task {
     public String[] getSubtasks() {
         return subtasks;
     }
-
 }
